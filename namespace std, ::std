@@ -1,0 +1,13 @@
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::cin;
+int main ()
+{
+ int a;
+ cout << "Hello, World!" << endl;
+ cout << "Enter number: ";
+ cin >> a;
+ a = a + 12;
+ cout << "Your number plus 12 equals " << a << ".";
+}
