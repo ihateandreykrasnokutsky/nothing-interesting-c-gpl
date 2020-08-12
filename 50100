@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int num=50;
+int sum=0;
+
+int fh()
+{
+	while (num<=100)
+	{
+		sum+=num;
+		++num;
+	}
+	return sum;
+}
+
+int main()
+{
+
+	cout<<"Sum of 50 to 100 inclusive is "<<fh()<<endl;
+}
