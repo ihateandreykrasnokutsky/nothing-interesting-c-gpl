@@ -1,9 +1,11 @@
 #include <iostream>
-#include <typeinfo>
 using namespace std;
 int main()
 {
-	auto a='r';
-	cout<<"Ваша переменная auto: "<<a<<endl;
-	cout<<"Тип вашей переменной: "<<typeid(a).name()<<endl;
+	auto x=0.1;
+	for (auto i=0; i<100; i++)
+	{
+		x+=0.1;
+		cout<<x<<"; ";
+	}
 }
